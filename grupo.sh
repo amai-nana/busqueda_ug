@@ -1,10 +1,12 @@
 #!/bin/bash
 
-var=$(egrep "^$1" /etc/group) 
+var=${1:?"Se necesita un grupo"}
+
+var=$(egrep "^$var" /etc/group) 
 
 if [[ $var ]]; then
-    echo "Exite el grupo: "$1
+    echo -e "Exite el grupo: $1 \n:D"
 else 
-    echo "No existe el grupo: "$1
+    echo -e "No existe el grupo: $1\n:("
 fi
 

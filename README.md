@@ -10,9 +10,9 @@ grupo.
 Es un script en bash que utiliza getopts para reconocer las opciones
 de busqueda, la sintaxis es la siguiente:
 
-'''sh 
+```sh 
 search_ug.sh opciones_busqueda referencia
-'''
+```
 
 * opciones_busqueda - modalidades de busqueda
     * -u busca unicamente usuarios

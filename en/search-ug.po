@@ -1,0 +1,24 @@
+#: search-ug.sh:42
+msgid "Exite el usuario: $OPTARG en el sistema\\n"
+msgstr "The user: $OPTARG exist in the system\\n"
+#: search-ug.sh:44
+msgid "El usuario $OPTARG no existe en el sistema\\n"
+msgstr "The user $OPTARG not exist in the system\\n"
+#: search-ug.sh:51
+msgid "Existe el grupo: $OPTARG en el sistema\\n"
+msgstr "The group: $OPTARG exist in the system\\n"
+#: search-ug.sh:53
+msgid "El grupo $OPTARG no existe en el sistema\\n"
+msgstr "The group: $OPTARG not exist in the system\\n"
+#: search-ug.sh:64
+msgid "El usuario $1 existe\\n El grupo $2 existe\\n"
+msgstr "The user $1 exist\\n The group $2 not exist\\n"
+#: search-ug.sh:66
+msgid "El usuario $1 no existe\\nEl grupo $2 si existe\\n"
+msgstr "The user $1 not exist\\nThe group $2 exist\\n"
+#: search-ug.sh:68
+msgid "El usuario $1 si existe\\n El grupo $2 no existe\\n"
+msgstr "The user $1 existe\\nThe group $2 not exist\\n"
+#: search-ug.sh:70
+msgid "El usuario $1 y el grupo $2 no existen\\n"
+msgstr "The user $1 and the group $2 not exist\\n"
